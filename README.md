@@ -1,3 +1,4 @@
+
 # Microprocessor-Lab-8086
 8086 Assembly dili ile yazılmış bellek analizi, aritmetik işlemler ve dizi kopyalama uygulamaları
 
@@ -47,6 +48,9 @@ Aşağıdaki sonuçlar, programın başarılı bir şekilde derlenip çalıştı
 
 Output Console (Çıktı Konsolu):
 
+<img width="812" height="298" alt="2_output" src="https://github.com/user-attachments/assets/69226b60-b65a-4ee7-84f1-6b558480e456" />
+
+
 [11:36:28] EasyCPU 8086 Simulator ready.
 
 [11:40:36] Assembly successful: 6 instructions.
@@ -54,6 +58,8 @@ Output Console (Çıktı Konsolu):
 [11:40:41] HLT instruction
 
 Memory Viewer (Bellek Görüntüleyici):
+
+<img width="817" height="205" alt="2_output_memort_viewer" src="https://github.com/user-attachments/assets/faed0dfd-0f1e-4c32-8c81-575f60aa106c" />
 
 Yapılan toplama işlemi (80h + 80h = 0100h) sonucunda, "Little Endian" mimarisine uygun olarak bellek sonucu 00 01 şeklinde kaydedilmiştir.
 
