@@ -59,7 +59,6 @@ Output Console (Çıktı Konsolu):
 
 Memory Viewer (Bellek Görüntüleyici):
 
-<img width="817" height="205" alt="2_output_memort_viewer" src="https://github.com/user-attachments/assets/faed0dfd-0f1e-4c32-8c81-575f60aa106c" />
 
 Yapılan toplama işlemi (80h + 80h = 0100h) sonucunda, "Little Endian" mimarisine uygun olarak bellek sonucu 00 01 şeklinde kaydedilmiştir.
 
@@ -104,6 +103,8 @@ HLT
 Program dizi kopyalama döngüsünü başarıyla tamamlamış ve kaynak verilerin bellek tablosu üzerinden doğruluğu teyit edilmiştir.
 
 ## Output Console (Çıktı Konsolu):
+
+<img width="810" height="957" alt="3_all_2" src="https://github.com/user-attachments/assets/08c425cb-2668-444e-a8d4-485e6f62e0f1" />
 
 [11:46:29] Assembly successful: 20 instructions.
 
