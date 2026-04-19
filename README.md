@@ -41,7 +41,7 @@ MOV AX, 80h
 ADD AX, 80h
 MOV [3000h], AX
 HLT
-
+```
 Çalıştırma Sonucu ve Bellek Görüntüsü
 Aşağıdaki sonuçlar, programın başarılı bir şekilde derlenip çalıştırıldığını ve bellek üzerindeki nihai çıktısını göstermektedir:
 
@@ -61,7 +61,7 @@ Yapılan toplama işlemi (80h + 80h = 0100h) sonucunda, "Little Endian" mimarisi
 Soru 3: Bellek Üzerinde Veri Kopyalama İşlemi
 Bu program, 0200:1000h adresinden başlayan ve F4h değeri ile sonlanan bir byte dizisini, 0300:2000h hedef bellek adresine kopyalamaktadır.
 
-
+```
 MOV AX, 0200h
 MOV DS, AX
 
@@ -92,7 +92,7 @@ JMP COPY_LOOP
 
 FINISH:
 HLT
-
+```
 
 Çalıştırma Sonucu ve Bellek Görüntüsü
 Program dizi kopyalama döngüsünü başarıyla tamamlamış ve kaynak verilerin bellek tablosu üzerinden doğruluğu teyit edilmiştir.
