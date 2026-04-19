@@ -58,7 +58,7 @@ Memory Viewer (Bellek Görüntüleyici):
 Yapılan toplama işlemi (80h + 80h = 0100h) sonucunda, "Little Endian" mimarisine uygun olarak bellek sonucu 00 01 şeklinde kaydedilmiştir.
 
 
-Soru 3: Bellek Üzerinde Veri Kopyalama İşlemi
+## Soru 3: Bellek Üzerinde Veri Kopyalama İşlemi
 Bu program, 0200:1000h adresinden başlayan ve F4h değeri ile sonlanan bir byte dizisini, 0300:2000h hedef bellek adresine kopyalamaktadır.
 
 ```
@@ -94,15 +94,15 @@ FINISH:
 HLT
 ```
 
-Çalıştırma Sonucu ve Bellek Görüntüsü
+## Çalıştırma Sonucu ve Bellek Görüntüsü
 Program dizi kopyalama döngüsünü başarıyla tamamlamış ve kaynak verilerin bellek tablosu üzerinden doğruluğu teyit edilmiştir.
 
-Output Console (Çıktı Konsolu):
+## Output Console (Çıktı Konsolu):
 
 [11:46:29] Assembly successful: 20 instructions.
 
 [11:46:32] HLT instruction
 
-Memory Viewer (Kopyalanan Kaynak Veriler):
+## Memory Viewer (Kopyalanan Kaynak Veriler):
 
 1200 satırından itibaren bellek içeriklerinin AA, BB, F4 şeklinde sıralandığı Memory Viewer tablosundan doğrulanmıştır.
